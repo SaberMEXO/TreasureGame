@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerCollision : MonoBehaviour
 {
+    public GameObject spawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -24,5 +25,14 @@ public class playerCollision : MonoBehaviour
             Destroy(other);
             other.GetComponent<Renderer>().enabled = false;
         }
+        
+    }
+    public void PlayerDeath()
+    {
+
+        //Destroy(gameObject);
+        //LevelManager.instance.Respawn();
+        transform.position = spawnPoint.transform.position;
+       
     }
 }

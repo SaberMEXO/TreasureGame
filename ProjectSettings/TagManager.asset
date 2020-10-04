@@ -11,6 +11,7 @@ TagManager:
   - barrier3
   - barrier4
   - barrier5
+  - Enemy
   layers:
   - Default
   - TransparentFX
