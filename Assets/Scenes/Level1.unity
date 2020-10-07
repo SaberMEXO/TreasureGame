@@ -499,14 +499,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 11289353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15171d312a44342068b001ed75f5eb5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1979b0a87764c0ba27e017fe5e370d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 1.2
-  enemySpeed: 2.5
+  enemySpeed: 2
   rayCastLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
 --- !u!212 &11289356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -565,7 +565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11289353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.389599, y: -27.349674, z: 0}
+  m_LocalPosition: {x: 22.1, y: -36.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1430002130}
@@ -18108,14 +18108,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 978977842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15171d312a44342068b001ed75f5eb5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1979b0a87764c0ba27e017fe5e370d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 1.2
-  enemySpeed: 2.5
+  enemySpeed: 2
   rayCastLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
 --- !u!1 &981004108
 GameObject:
   m_ObjectHideFlags: 0
@@ -21699,7 +21699,7 @@ GameObject:
   - component: {fileID: 1220114001}
   - component: {fileID: 1220114002}
   - component: {fileID: 1220114003}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: characterPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -21718,7 +21718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ada18d3c584043f3b8dc400cae6b96c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
 --- !u!212 &1220113999
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30486,14 +30486,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1667101334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15171d312a44342068b001ed75f5eb5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1979b0a87764c0ba27e017fe5e370d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 1.2
-  enemySpeed: 2.5
+  enemySpeed: 2
   rayCastLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
 --- !u!212 &1667101337
 SpriteRenderer:
   m_ObjectHideFlags: 0
