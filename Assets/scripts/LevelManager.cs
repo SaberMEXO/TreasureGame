@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+   
+
     public static LevelManager instance;
 
     public Transform respawnPoint;
@@ -19,4 +21,11 @@ public class LevelManager : MonoBehaviour
     {
         Instantiate(player, respawnPoint.position, Quaternion.identity);
     }
+
+    public static Vector3 GetVectorFromAngle(float angle)
+    {
+        float angleRad = angle * (Mathf.PI / 180f);
+        return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
+    }
+
 }
