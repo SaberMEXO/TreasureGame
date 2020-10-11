@@ -11,7 +11,6 @@ public class LevelManager : MonoBehaviour
     public Transform respawnPoint;
     public GameObject player;
 
-
     private void Awake()
     {
         instance = this;

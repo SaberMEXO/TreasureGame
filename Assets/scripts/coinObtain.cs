@@ -20,7 +20,7 @@ public class coinObtain : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            print("score+1");
+            //print("score+1");
             ScoreScript.scoreValue++;
         }
     }

@@ -30,26 +30,27 @@ public class RayCastWallCheck : MonoBehaviour
         if(hit2D.collider != null && hit2D.collider.gameObject.CompareTag("item"))
         {
             int randomNumber = Random.Range(0, 100);
-            print("Hit");
+            //print("Hit");
             if (randomNumber < 50)
             {
-                print("<50");
+                //print("<50");
                 transform.Rotate(new Vector3(0, 0, 90));
             }
             if (randomNumber > 50)
             {
-                print(">50");
+                //print(">50");
                 transform.Rotate(new Vector3(0, 0, -90));
             }
         }
         if (hit2D.collider != null && hit2D.collider.gameObject.CompareTag("Player"))
         {
             hit2D.collider.gameObject.GetComponent<playerCollision>().PlayerDeath();
+            manager.health--;
         }
 
         else
         {
-            print("not hit"); 
+            //print("not hit"); 
             transform.Translate(0, Time.deltaTime * enemySpeed, 0);
         }
     }
