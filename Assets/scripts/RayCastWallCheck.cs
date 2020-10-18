@@ -25,7 +25,7 @@ public class RayCastWallCheck : MonoBehaviour
 
         RaycastHit2D hit2D = Physics2D.Raycast(myRay.origin, myRay.direction, maxDistance, rayCastLayers);
         //draw the ray
-        Debug.DrawRay(myRay.origin, myRay.direction * maxDistance, Color.white);
+        //Debug.DrawRay(myRay.origin, myRay.direction * maxDistance, Color.white);
 
         if(hit2D.collider != null && hit2D.collider.gameObject.CompareTag("item"))
         {

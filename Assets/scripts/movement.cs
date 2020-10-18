@@ -8,6 +8,7 @@ public class movement : MonoBehaviour
 
     public Animator moveIdelTrans;
 
+
     Vector2 movementDir;
 
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class movement : MonoBehaviour
         moveIdelTrans.SetFloat("speed", -1);
         if (Input.GetKey(KeyCode.W))
         {
+            
             transform.Translate(0, speed * Time.deltaTime, 0);
             //moveIdelTrans.SetTrigger("WASDpressed");
             moveIdelTrans.SetFloat("vertical", 1);

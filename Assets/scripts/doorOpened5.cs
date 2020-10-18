@@ -6,10 +6,12 @@ public class doorOpened5 : MonoBehaviour
 {
     public door5 Door5Opened;
 
+    public AudioSource doorSlide;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        doorSlide = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -17,6 +19,7 @@ public class doorOpened5 : MonoBehaviour
     {
         if (Door5Opened.doorOpen5 == true)
         {
+            doorSlide.Play();
             Destroy(this);
             this.GetComponent<Renderer>().enabled = false;
             this.GetComponent<BoxCollider2D>().enabled = false;

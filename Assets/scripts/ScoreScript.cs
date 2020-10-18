@@ -24,7 +24,7 @@ public class ScoreScript : MonoBehaviour
         }
         else if (scoreValue >= 5)
         {
-            score.text = "Congrats,you win!";
+            //score.text = "Congrats,you win!";
         }
     }
 }

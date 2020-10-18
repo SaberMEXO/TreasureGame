@@ -6,10 +6,12 @@ public class playerCollision : MonoBehaviour
 {
     public GameObject spawnPoint;
 
+    public AudioSource crush;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        crush = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class playerCollision : MonoBehaviour
     }
     public void PlayerDeath()
     {
-
+        crush.Play();
         //Destroy(gameObject);
         //LevelManager.instance.Respawn();
         transform.position = spawnPoint.transform.position;

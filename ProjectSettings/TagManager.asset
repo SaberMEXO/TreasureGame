@@ -12,6 +12,7 @@ TagManager:
   - barrier4
   - barrier5
   - Enemy
+  - RedBox
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - 
   - Boxes
   - Player
-  - 
+  - barrier
   - 
   - 
   - 
